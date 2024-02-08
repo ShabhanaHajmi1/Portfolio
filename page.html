@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="https://as1.ftcdn.net/v2/jpg/02/20/13/50/1000_F_220135018_BgxHrwwnSuHWdM5bHRkhadycO2Ktzzx0.jpg">
+    <link rel="icon" type="image/x-icon" href="/home/shabhanashaik/Downloads/icons8-portfolio-99.png">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sty.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>1
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RESUME</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="https://hrcdn.net/s3_pub/hr-avatars/1fb921b7-3183-4a60-9fe8-327022837b96/150x150.png">
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          <p>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/shaik-sabhanahajmi-215883212/" target="_blank">LinkedIn</a><br/>
+          <br/>
+          <br/>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.hackerrank.com/20MH1A4251?hr_r=1" target="_blank">HackerRank</a><br/>
+          <br/>
+          <br/>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.codechef.com/users/shabhana111" target="_blank">CodeChef</a><br/>
+          <br/>
+          <br/>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://github.com/ShabhanaHajmi1?tab=repositories" target="_blank">GitHub</a><br/>
+          <br/>
+          <br/>
+          <a  class="icon-link w3-text-sand w3-hover-text-amber" href="https://twitter.com/HajmiShaik?t=0YOyX5NLomafQxtheh0xIw&s=09" target="_blank">Twitter</a><br/>
+          <br/>
+          <br/>
+          <a  class="icon-link w3-text-sand w3-hover-text-amber" href="https://stackoverflow.com/users/22690581/sabhanahajmi-shaik?tab=profile" target="_blank">stackoverflow</a><br/>
+
+</p>
+        </div>
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="https://drive.google.com/file/d/1z9tRyqlKpyd3Sjc7d6AcQSTAZiDhMBL9/view?usp=sharing"><button style="background-color:orange;  color:black">RESUME</button></a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRICULUM VITAE</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RESUME</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="font-style: italic; font-size:x-large;">"The mind is the limit. When you face your struggles, you overcome them."</p>
+            <h2>SabhanaHajmi Shaik</h2>
+              <h3>Fresher Aspirant</h3>
+            <p></p>
+          </div>
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+            <p class="w3-margin-top-2"> 
+              I am eager to launch a career in Machine Learning. Passionate about Machine learning and Python. I am excited to bring my skills, fresh perspective, and dedication to the table.<br>
+              <br>
+              I am currently pursuing a bachelor's degree in Artificial Intelligence and Machine Learning (AIML) at Aditya College of Engineering. Throughout my journey, I honed my knowledge in Machine Learning, preparing myself for the challenges of the professional world. 
+              Equipped with strong Machine Learning Algorithms like supervised, unsupervised, including Programming Language like Python, libraries and, I equipped with strong soft skills as well. I am enthusiastic about applying my theoretical understanding to practical scenarios.<br>
+              <br>
+              During my studies, I actively participated in doing some projects. These experiences allowed me to gain hands-on exposure.<br>
+              <br>
+              My goal is to secure a position that allows me to grow. I am eager to contribute my creativity, adaptability, and problem-solving abilities to a dynamic team. 
+              Integrity, continuous learning, and a growth mindset define my work ethic. I am committed to embracing challenges and seeking opportunities for personal and professional development. 
+              I am excited to connect with professionals in the Machine Learning Field and explore ways to contribute to meaningful projects.<br>
+              <br>
+              Let us connect and share our insights and experiences! 
+              Feel free to reach out to me at sabhanahajmi@gmail.com or connect with me on LinkedIn. 
+              I am open to opportunities and collaborations. I look forward to connecting with hiring managers, recruiters, and industry peers, fellow machine learning enthusiasts. Let us build a network that fosters growth and success! and drive innovation together!
+            </p>
+          </div>
+
+          <!--RESUME-->
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+              <h3 class="w3-border-amber">WORK EXPERIENCE</h3>
+              <div class="">
+
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>As a new candidate, I am eager to contribute my skills and knowledge to a dynamic organization.</li>
+                </ul>
+    
+             
+
+            <!---EDUCATION SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY EDUCATION</h3>
+                <h4>Aditya college of Engineering, Surampalem</h4>
+                <p>2020 - 2024</p>
+                <p>CGPA: 7.71</p>
+                <h4>Sri Chaitanya Junior College, Tenali</h4>
+                <p>2018 - 2020</p>
+                <p>CGPA: 9.57</p>
+                <h4>T.S.R.M.H School, Tenali</h4>
+                <p>2018</p>
+                <p>CGPA: 9.5</p>
+            </div>
+
+            <!--SKILLS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+        <h3 class="w3-border-amber">MY SKILLS</h3>
+              <!--SOFT SKILLS-->
+              <!--TECHNICAL SKILLS-->
+              <h4></h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Language: Python<br>
+                    <br>
+                    Libraries : Python Libraries- Numpy,Pandas,Matplotlib<br>
+                    <br>
+                    Web Dev Tools: VScode,Github<br>
+                    <br>
+                    Cloud/Databases: Relational Database(SQL)<br>
+                    <br>
+                    Relevent Coursework: Data Structures & Algorithms, Object Oriented Programming,Software Development Life Cycle.<br>
+                    <br>
+                    Areas of Interest: Machine Learning.<br>
+                    <br>
+                    Soft Skills: Problem Solving, planning and co-ordination, analytical skills, multi tasking ability, extremely quick
+                    learner, Work under strict deadlines, Enthusiastic on leraning new technologies, presentation skills, critical thinking,
+                    team lead, public speaking, highly collaborate, Self-learning, Adaptability<br></li>
+                
+                </ul>
+            </div>
+        </br>
+    </br>
+               <h4>PROJECTS</h4>
+            <ul class="w3-ul" style="font-weight: 500;">
+              <p>1. Developed a machine learning model for predicting skin disease</p>
+               <p> 2. Developed a machine learning model for predicting breast cancer disease</p>
+              <p> 3. Developed a machine learning model for predicting weather </p>
+              
+            </ul>
+        </br>
+    </br>
+            <!--INTERESTS SECTION-->
+              <div class="w3-container w3-margin-top-2 w3-cursive">
+          <h3 class="w3-border-amber">MY HOBBIES AND INTERESTS</h3>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Experienced in planting and nurturing a variety of trees to enhance the environment and promote sustainability</li>
+                  <li>Proficient in preparing and cooking delicious meals using diverse culinary techniques and ingredients</li>
+                  <li>Skilled in capturing captivating photographs with a keen eye for detail and composition</li>
+                  <li>Passionate about exploring new destinations and immersing in different cultures through travel</li>
+              
+                </ul>
+            </div>
+
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT DETAILS</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Name: SabhanaHajmi Shaik</p>
+              <p>Adress: Ganganammapet, Tenali, Andhra Pradesh 522201</p>
+              <p>Phone number: +91 9390813055</p>
+              <p>E-mail: sabhanahajmi@gmail.com</p>
+              <p>College-mail: 20MH1A4251@acoe.edu.in</p>
+            </div>
+          </div>
+
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2023 - SabhanaHajmi Shaik</p>
+        <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
